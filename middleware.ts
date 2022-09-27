@@ -13,7 +13,7 @@ export function middleware(req: NextRequest) {
   console.log(`Visitor from: ${country}`)
 
   if (country === blocked_country) {
-    req.nextUrl.pathname === '/login'
+    req.nextUrl.pathname = '/login'
   } else {
     req.nextUrl.pathname = '/private-page'
   }
