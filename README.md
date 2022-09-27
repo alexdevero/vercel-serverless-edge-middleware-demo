@@ -1,6 +1,6 @@
-# Vercel serverless middleware demo
+# Vercel serverless edge middleware demo
 
-This is a demo of Vercel edge middleware .
+This is a demo of Vercel edge middleware.
 
 ## Getting Started
 
